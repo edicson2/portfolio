@@ -12,7 +12,7 @@
 <body>
 
   <header>
-    <div id="home" class="navbar">
+    <div class="navbar">
       <div class="container flex">
 
         <h1 class="home">
@@ -52,7 +52,7 @@
   </header>
 
 
-  <section class="showcase">
+  <section id="home" class="showcase">
     <div class="container intro grid grid-2">
 
       <div class="showcase-text">
@@ -310,15 +310,7 @@
       </div>
     </div>
   </footer>
-  <script
-    src="/js/smooth-scroll.polyfills.js"></script>
   <script src="/js/main.js"></script>
-  <script>
-    const scroll = new SmoothScroll('a[href*="#"]', {
-      speed: 400,
-      speedAsDuration: true
-    });
-  </script>
 </body>
 
 </html>
