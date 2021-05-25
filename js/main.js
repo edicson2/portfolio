@@ -9,7 +9,7 @@ const randomSquares = () => {
     rnd = Math.random() * (8 - 3) + 3;
     box.style.setProperty('time', rnd + 's');
   }
-  setTimeout(randomSquares, Math.random() * 1000);
+  setTimeout(randomSquares(), Math.random() * 1000);
 }
 
 // Squares random initial position
